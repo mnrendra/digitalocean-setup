@@ -24,3 +24,11 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
 5. Auto Remove (purge) `sudo apt auto remove --purge`
 6. Re-Update `sudo apt update`
 7. Re-Upgrade `sudo apt upgrade`
+
+## Install NGINX and allow Firewall for HTTP HTTPS
+1. Install NGINX, follow: [https://nginx.org/en/linux_packages.html#Ubuntu](https://nginx.org/en/linux_packages.html#Ubuntu)
+2. Start NGINX `sudo service nginx restart`
+2. Allow HTTP and HTTPS:  
+  a. `sudo ufw allow http`  
+  b. `sudo ufw allow https`  
+  c. `sudo ufw reload`
