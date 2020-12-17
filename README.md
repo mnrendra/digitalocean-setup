@@ -32,3 +32,7 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
   a. `sudo ufw allow http`  
   b. `sudo ufw allow https`  
   c. `sudo ufw reload`
+
+## Install NGINX and allow Firewall for HTTP HTTPS
+1. Install NVM, follow: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+2. Install NODE.JS `nvm install --lts`
