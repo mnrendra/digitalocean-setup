@@ -20,8 +20,8 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
 1. Update `sudo apt update`
 2. Upgrade `sudo apt upgrade`
 3. Auto Clean `sudo apt autoclean`
-4. Auto Remove `sudo apt auto remove`
-5. Auto Remove (purge) `sudo apt auto remove --purge`
+4. Auto Remove `sudo apt autoremove`
+5. Auto Remove (purge) `sudo apt autoremove --purge`
 6. Re-Update `sudo apt update`
 7. Re-Upgrade `sudo apt upgrade`
 
@@ -33,6 +33,13 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
   b. `sudo ufw allow https`  
   c. `sudo ufw reload`
 
-## Install NGINX and allow Firewall for HTTP HTTPS
+## Install NVM and Install NodeJs
 1. Install NVM, follow: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
-2. Install NODE.JS `nvm install --lts`
+2. Check NVM version `nvm --version`
+3. Install NODE.JS `nvm install --lts`
+4. Check NodeJs version `node --version`
+5. Check NPM version `npm --version`
+
+## Install Git
+1. APT Update `sudo apt update`
+3. Install Git `apt-get install git`
