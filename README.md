@@ -41,5 +41,6 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
 5. Check NPM version `npm --version`
 
 ## Install Git
+1. Add PPA to get the latest stable upstream Git version `add-apt-repository ppa:git-core/ppa`
 1. APT Update `sudo apt update`
-3. Install Git `apt-get install git`
+3. Install Git `sudo apt install git`
