@@ -44,3 +44,8 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
 1. Add PPA to get the latest stable upstream Git version `add-apt-repository ppa:git-core/ppa`
 1. APT Update `sudo apt update`
 3. Install Git `sudo apt install git`
+
+## Install HAProxy
+1. Add PPA to get the specific version (latest LTS) `sudo add-apt-repository ppa:vbernat/haproxy-2.2`
+1. APT Update `sudo apt update`
+3. Install HAProxy `sudo apt install haproxy`
