@@ -49,3 +49,13 @@ Guideline (inc script) to setup Digitalocean VPS (Ubuntu)
 1. Add PPA to get the specific version (latest LTS) `sudo add-apt-repository ppa:vbernat/haproxy-2.2`
 1. APT Update `sudo apt update`
 3. Install HAProxy `sudo apt install haproxy`
+
+## Install Pritunl-Client
+1. [Install Pritunl Server](https://pritunl.com/) first
+1. Make sure `cat /etc/apt/sources.list.d/pritunl.list` is same with value on the pritunl server doc above
+2. `sudo apt install apt-transport-https dirmngr`
+3. `sudo apt update`
+4. `sudo apt install pritunl-client`
+   If facing error, then:
+5. `sudo dpkg -i --force-overwrite /var/cache/apt/archives/pritunl-client_1.2.2799.2-0ubuntu1~bionic_amd64.deb`
+6. `sudo apt install pritunl-client -f`
